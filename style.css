@@ -1,0 +1,49 @@
+body{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+
+}
+#container{
+    background-color: plum;
+    padding: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+input{
+    width: 250px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+
+}
+button{
+    width: 50px;
+    padding: 9px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+h2{
+    margin-left: 90px;
+    margin-top: 0px;
+}
+.text ul{
+    position: relative;
+    background-color: pink;
+    color:black;
+    padding: 7px;
+    text-align: left;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.text ul i{
+    position: absolute;
+    right:10px;
+    cursor: pointer;
+
+}
